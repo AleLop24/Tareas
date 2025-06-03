@@ -21,3 +21,12 @@ crearElementoBtn.addEventListener('click', function() {
     contenedor.appendChild(nuevoParrafo);
     console.log('Nuevo párrafo creado y añadido al contenedor');
 });
+
+cambiarEstiloBtn.addEventListener('click', function() {
+    const parrafos = contenedor.querySelectorAll('p');
+    parrafos.forEach(parrafo => {
+        parrafo.style.color = 'blue';
+        parrafo.style.fontSize = '20px';
+        console.log('Estilo de párrafo cambiado a azul y tamaño de fuente a 20px');
+    });
+});
