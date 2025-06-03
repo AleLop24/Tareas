@@ -23,7 +23,8 @@ crearElementoBtn.addEventListener('click', function() {
 });
 
 cambiarEstiloBtn.addEventListener('click', function() {
-    parrafo.forEach(parrafo => {
+    const parrafos = contenedor.querySelectorAll('p');
+    parrafos.forEach(parrafo => {
         parrafo.style.color = 'blue';
         parrafo.style.fontSize = '20px';
         console.log('Estilo de párrafo cambiado a azul y tamaño de fuente a 20px');
