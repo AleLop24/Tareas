@@ -34,3 +34,15 @@ button {
 button:hover {
     opacity: 0.9;
 }
+
+/* ...existing code... */
+
+.parrafo-dinamico {
+    color: #333;
+    font-weight: normal;
+}
+
+.resaltado-parrafo {
+    color: blue;
+    font-weight: bold;
+}
